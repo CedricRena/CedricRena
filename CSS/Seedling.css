@@ -1,6 +1,7 @@
 
 body{
     overflow-x: hidden;
+    background-color: white;
 }
 
 h1 { /* Bodoni */
@@ -29,9 +30,6 @@ h4 { /* Light */
 }
 
 
-body{
-    background-color: black;
-}
 .navbar {
     background: #182F13;
 }
@@ -66,6 +64,11 @@ body{
 #TextBox {
     margin-left: 10vmin;
     margin-right: 10vmin;
+}
+
+#StoreBanner {
+    color: white;
+    background-color: #CB7086;
 }
 
 footer {
