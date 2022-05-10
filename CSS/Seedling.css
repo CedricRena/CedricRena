@@ -1,0 +1,139 @@
+
+body{
+    overflow-x: hidden;
+    background-color: white;
+    max-width: 1920px;
+    margin: auto;
+}
+
+h1 { /* Bodoni */
+    font-family: bodoni-urw,serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+h2 { /* Semi-Bold */
+    font-family: gill-sans-nova,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h3 { /* Book */
+    font-family: gill-sans-nova,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 { /* Light */
+    font-family: gill-sans-nova,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.75;
+    z-index: 1;
+  }
+
+
+.navbar {
+    background: #182F13;
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    color: rgb(177, 177, 177);
+}
+
+#CalendarHome {
+    background: #70CBA9;
+}
+
+#TextBox {
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+}
+
+#StoreBanner {
+    color: white;
+    background-color: #CB7086;
+}
+
+#AboutUsBanner {
+    color: white;
+    background-color: #9ab886;
+}
+
+#Block1 {
+    color: white;
+ background-color: #EBC979;
+}
+
+#Block2 {
+   color: white; 
+   background-color: #EB9879;
+}
+
+#Block3 {
+    color: white;
+    background-color: #BA8DFE;  
+}
+
+.map-container{
+    overflow:hidden;
+    position:relative;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+footer {
+    background: #182F13; 
+    color: white; 
+}
+
