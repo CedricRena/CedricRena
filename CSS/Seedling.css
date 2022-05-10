@@ -35,7 +35,7 @@ h4 { /* Light */
 header {
     position: relative;
     background-color: black;
-    height: 75vh;
+    height: 45vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
